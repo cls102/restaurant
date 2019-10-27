@@ -1,0 +1,749 @@
+.one {
+  // background-color: orange;
+
+  .padding {
+    // background-color: purple;
+    overflow: hidden;
+    clear: both;
+    padding-top: 15px;
+    margin-left: 20px;
+  }
+
+  #gray-restaurant {
+    margin-top: 85px;
+    width: 447px;
+  }
+  #grayTwo {
+    width: 556px;
+  }
+  h1:nth-child(3) {
+    width: 495px;
+  }
+  h1 {
+    clear: both;
+
+    font-size: 75px;
+    width: 300px;
+    font-weight: 700;
+    font-family: arial;
+    background-color: black;
+    color: white;
+  }
+
+  .button {
+    width: 300px;
+    height: 45px;
+
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 7px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+      font-family: arial;
+    }
+  }
+}
+
+.two-restaurant {
+  width: 100%;
+  height: 600px;
+  padding: 0 50px;
+
+  p {
+    padding: 125px 0px 100px;
+    font-size: 4.5vw;
+    font-weight: 800;
+    font-family: arial;
+    line-height: 1.4em;
+  }
+}
+
+.five-restaurant {
+  width: 100%;
+  height: 700px;
+  padding: 0 50px;
+}
+.flex-grid-restaurant {
+  display: flex;
+  // justify-content: space-between;
+  // background-color: orange;
+  // margin-top: 200px;
+
+  img {
+    width: 100%;
+  }
+  .col {
+    width: 31%;
+    margin: 0 18px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.8em;
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 27px;
+      font-size: 1.7vw;
+
+      .gradientOne {
+        background-image: linear-gradient(#ebddff, #99f7e6);
+        a {
+          font-weight: none;
+          font-size: 1.9vw;
+        }
+      }
+      .gradientTwo {
+        background-image: linear-gradient(#ffe1ff, #ffc699);
+        a {
+          font-weight: none;
+          font-size: 1.7vw;
+        }
+      }
+
+      .gradientThree {
+        background-image: linear-gradient(#ffffa3, #c1e8ff);
+        a {
+          font-weight: none;
+          font-size: 1.7vw;
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: arial;
+      div {
+        margin-top: 30px;
+        border: 2px solid #333;
+        width: 31%;
+        width: 43%;
+        text-align: center;
+        padding: 7px 20px;
+        display: inline;
+      }
+      div:hover {
+        background-color: #333;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.contact-form {
+  width: 100%;
+  height: 1070px;
+  padding: 0 50px;
+
+  // section five begins
+
+  .middle-content-1 {
+    width: 35%;
+    display: inline-block;
+    float: left;
+    h2 {
+      font-size: 50px;
+      font-weight: 800;
+      font-family: arial;
+      line-height: 1.4em;
+    }
+    p {
+      margin-top: 50px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: arial;
+      line-height: 1.8em;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: arial;
+
+      div {
+        margin-top: 70px;
+        border: 2px solid #333;
+        width: 25%;
+        padding: 2px 0 2px 15px;
+      }
+      div:hover {
+        background-color: #333;
+        color: #fff;
+      }
+    }
+  }
+
+  // section five ends
+
+  // background-color: rgb(124, 202, 110);
+
+  .contact-formOne {
+    padding: 100px 50px 0 30px;
+    margin-bottom: 450px;
+
+    .left-contentTwo {
+      width: 35%;
+      line-height: 1.8em;
+      float: left;
+      h2 {
+        font-size: 50px;
+        font-weight: 800;
+        font-family: arial;
+        line-height: 1.4em;
+      }
+      p {
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: arial;
+        line-height: 1.8em;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;
+
+        div {
+          margin-top: 70px;
+          border: 2px solid #333;
+          width: 25%;
+          padding: 2px 0 2px 15px;
+        }
+        div:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+    .right-contentTwo {
+      float: right;
+      margin-top: 55px;
+
+      form {
+        p {
+          width: 90%;
+          border-bottom: 2px solid #333;
+
+          input {
+            border: none;
+            // margin-bottom: 14px;
+            font-family: monospace;
+            font-size: 18px;
+            width: 100%;
+
+            ::placeholder {
+              color: red;
+              opacity: 1;
+            }
+          }
+        }
+
+        .margin {
+          margin-top: 35px;
+        }
+        .marginTwo {
+          margin-top: 15px;
+        }
+      }
+
+      textarea {
+        border: none;
+        // border-bottom: 2px solid #333;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;
+
+        div {
+          border: 2px solid #333;
+          width: 46%;
+          height: 28%;
+          width: 43%;
+          text-align: center;
+          padding: 5px 10px;
+          display: inline;
+        }
+        div:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .follow {
+    clear: both;
+    margin: 100px 34px 230px;
+
+    h2 {
+      font-size: 50px;
+      font-weight: 800;
+      font-family: arial;
+      line-height: 1.4em;
+    }
+
+    p {
+      float: left;
+      margin-right: 244px;
+      display: inline-block;
+      margin-top: 50px;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: arial;
+      line-height: 1.8em;
+    }
+    .followLinks {
+      a {
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .directions {
+    clear: both;
+
+    margin: 100px 34px 0;
+    height: 195px;
+    // background-color: yellow;
+    p {
+      // display: inline;
+      float: left;
+    }
+    // div {
+    //   background-color: purple;
+    //   display: inline;
+    // }
+
+    p:nth-child(1) {
+      width: 30%;
+      // background-image: linear-gradient(to bottom right, gray, blue);
+      display: inline;
+      // margin-left: 60px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: arial;
+    }
+    p:nth-child(2) {
+      width: 37%;
+      margin-right: 83px;
+      margin-left: 70px;
+      font-size: 20px;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.7em;
+      // background-color: orange;
+    }
+    span {
+      background-image: linear-gradient(rgb(194, 136, 241), rgb(59, 188, 192));
+      font-size: 27px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+      font-weight: bold;
+      font-family: arial;
+
+      div {
+        transition: 0.4s;
+        display: inline-block;
+        border: 2px solid #333;
+        width: 15%;
+        height: 24%;
+        padding: 11px 22px;
+      }
+      div:hover {
+        background-color: #333;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.seven-restaurant {
+  padding: 50px 30px 8px 50px;
+
+  .flex-grid-thirds {
+    display: flex;
+    .col-1 {
+      width: 8%;
+      img {
+        width: 70%;
+      }
+    }
+    .col-2 {
+      width: 30%;
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        line-height: 1.4;
+        font-size: 20px;
+        color: rgb(117, 115, 115);
+      }
+      p:nth-child(2) {
+        color: #333;
+        font-size: 18px;
+        font-family: "Mukta Vaani", sans-serif;
+        font-weight: 500;
+        margin-top: 24px;
+      }
+    }
+    .col-3 {
+      width: 25%;
+      margin: 0 auto;
+      padding-left: 80px;
+      p {
+        a {
+          text-decoration: none;
+          margin: 0 auto;
+          display: block;
+          color: #333;
+          font-family: arial;
+          font-weight: bold;
+          font-size: 22px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    .col-4 {
+      width: 25%;
+      padding-left: 20px;
+      margin: 0 auto;
+      font-family: arial;
+      font-weight: 400;
+
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        font-size: 20px;
+        color: #757373;
+        line-height: 1.4;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-top: 20px;
+
+        li {
+          display: inline-block;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  .row {
+    margin-top: 40px;
+    margin-bottom: 85px;
+    font-family: arial;
+    font-size: 11px;
+    color: #b9b9b9;
+    letter-spacing: 0.03em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7em;
+
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    span {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}
+
+//----------------------------------------------------------------for 1200
+
+@media only screen and (max-width: 1200px) {
+  .two-restaurant {
+    p {
+      padding: 125px 25px 100px;
+    }
+  }
+  .five-restaurant {
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    // padding: 0 50px;
+
+    .flex-grid-restaurant {
+      display: flex;
+      flex-direction: row;
+      // justify-content: space-between;
+      // background-color: orange;
+      // margin-top: 200px;
+
+      img {
+        width: 100%;
+      }
+      .col {
+        width: 31%;
+        margin: 0 18px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        p {
+          margin-top: 20px;
+          font-size: 1.9vw;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            margin-top: 30px;
+            border: 2px solid #333;
+            text-align: center;
+            padding: 8px 15px;
+            display: inline;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+//----------------------------------------------------------------for 980
+
+@media only screen and (max-width: 980px) {
+  .two-restaurant {
+    height: 500px;
+    p {
+      padding: 100x 0px 100px;
+      font-size: 45px;
+    }
+  }
+  .five-restaurant {
+    width: 100%;
+    height: 670px;
+    margin-top: 30px;
+    padding: 0;
+
+    .flex-grid-restaurant {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+      .col {
+        width: 28%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        img {
+          width: 228px;
+          height: 228px;
+        }
+
+        p {
+          margin-top: 20px;
+          margin-bottom: 27px;
+          font-size: 2.4vw;
+          width: 207px;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            border: 2px solid #333;
+
+            width: 43%;
+            text-align: center;
+            padding: 5px 10px;
+            display: inline;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+//----------------------------------------------------------------for 765
+
+@media only screen and (max-width: 765px) {
+  .two-restaurant {
+    height: 690px;
+    p {
+      padding: 125px 0px 100px;
+      font-size: 45px;
+      width: 550px;
+      margin: 0 auto;
+    }
+  }
+}
+
+//----------------------------------------------------------------for 715 footer only
+
+@media only screen and (max-width: 715px) {
+  .seven-restaurant {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 8%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 2.4vw;
+          line-height: 1.4em;
+        }
+        p:nth-child(2) {
+          font-size: 2.2vw;
+          line-height: 1.7em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}
+
+// --------------------------------------------------------------for 567 viewing
+
+@media only screen and (max-width: 567px) {
+  .two-restaurant {
+    height: 450px;
+    p {
+      font-size: 24px;
+      width: 400px;
+      line-height: 1.8em;
+    }
+  }
+  .seven-eatery {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 11%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 3.4vw;
+          line-height: 1.4em;
+        }
+
+        p:nth-child(2) {
+          font-size: 3.2vw;
+          line-height: 1.4em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,1113 @@
+@font-face {
+  font-family: "gordita-cufonfonts";
+  src: url("gorditaregular.woff2") format("woff2"),
+    url("myfont.woff") format("woff"),
+    url("fonts/gorditaregular.ttf") format("truetype");
+}
+
+.one-eatery {
+  // background-color: orange;
+  .padding {
+    // background-color: purple;
+    overflow: hidden;
+    clear: both;
+    padding-top: 55px;
+    margin-left: 20px;
+  }
+  h1:nth-child(1) {
+    margin-top: 110px;
+    font-size: 7vw;
+    // padding-right: 100px;
+    // margin-right: 10px;
+    width: 424px;
+    span {
+      background-color: black;
+    }
+  }
+  h1:nth-child(2) {
+    width: 428px;
+    font-size: 7vw;
+    span {
+      background-color: black;
+    }
+  }
+  h1:nth-child(3) {
+    width: 495px;
+    span {
+      background-color: black;
+    }
+  }
+  h1 {
+    clear: both;
+
+    font-size: 75px;
+    width: 300px;
+    font-weight: 700;
+    font-family: arial;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .button {
+    width: 300px;
+    height: 45px;
+
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 15px;
+    padding: 7px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      line-height: 1.4;
+      font-size: 20px;
+      font-weight: 800;
+      font-family: arial;
+    }
+  }
+}
+
+.two-Restaurant {
+  width: 100%;
+  height: 500px;
+  padding: 0 50px;
+
+  p {
+    padding: 125px 20px 100px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: arial;
+    line-height: 1.4em;
+  }
+}
+
+.five-bistro {
+  width: 100%;
+  height: 960px;
+  padding: 100px 50px;
+  font-family: "Basic", sans-serif;
+  // background-color: purple;
+
+  .info {
+    width: 97%;
+    margin: 0 auto;
+
+    .left-content {
+      width: 39%;
+      line-height: 1.8em;
+      float: left;
+
+      span {
+        background-image: linear-gradient(#ffe1ff, #ffc699);
+      }
+      h2 {
+        font-size: 4vw;
+        font-weight: 800;
+        line-height: 1.4em;
+      }
+      p {
+        margin-top: 100px;
+        font-size: 2.1vw;
+        line-height: 1.1em;
+      }
+    }
+    .right-content {
+      float: right;
+    }
+  }
+}
+
+//beginning of section six eatery -----------------------------------------------
+.six-eatery {
+  padding: 40px;
+
+  .menu-container {
+    width: 100%;
+    height: auto;
+    // background-color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Basic", sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+
+    h3 {
+      color: rgb(73, 69, 69);
+      font-size: 1.4em;
+
+      font-weight: bold;
+      letter-spacing: 0.03em;
+      margin-bottom: 40px;
+      margin-top: 20px;
+    }
+
+    h5 {
+      color: rgb(49, 48, 48);
+      font-size: 1.1em;
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: rgb(119, 111, 111);
+      font-size: 0.8em;
+      font-size: 1.3vw;
+      font-family: "Source Sans Pro", sans-serif;
+      font-weight: 400;
+    }
+
+    .leftContent {
+      // background-color: orange;
+      width: 48%;
+      .margin {
+        margin-bottom: 0;
+        color: #706c6c;
+      }
+    }
+
+    .rightContent {
+      // background-color: blue;
+      width: 48%;
+
+      .margin {
+        margin-bottom: 0;
+        color: #706c6c;
+      }
+      .additional-info {
+        font-size: 14px;
+        line-height: 1.4em;
+      }
+
+      .font-size {
+        font-size: 14px;
+      }
+
+      .paragraph {
+        color: gray;
+      }
+    }
+  }
+}
+
+.reservation {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Basic", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #fff;
+    line-height: 2em;
+
+    div {
+      width: 375px;
+      height: 52px;
+      margin: 0 auto;
+      background-color: #1a1818;
+    }
+  }
+}
+
+// ---- resturant locations section p tag
+
+.otherRestaurants {
+  width: 100%;
+  padding-left: 222px;
+  p {
+    font-family: "Basic", sans-serif;
+    font-size: 5vw;
+  }
+}
+
+// ---- resturant locations section ---------------------------------------------------------------------
+
+.restaurantLocations {
+  width: 100%;
+  height: 700px;
+  margin-top: 30px;
+  // padding: 0 50px;
+
+  .flex-grid-restaurant-bistro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .para {
+      position: absolute;
+      font-size: 5vw;
+      font-family: "basic";
+      top: -72px;
+      left: 201px;
+    }
+    img {
+      width: 100%;
+    }
+    .col {
+      width: 31%;
+      margin: 0 18px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.8em;
+
+      p {
+        margin-top: 20px;
+        margin-bottom: 27px;
+        font-size: 1.7vw;
+
+        .gradientOne {
+          background-image: linear-gradient(#ebddff, #99f7e6);
+          a {
+            font-weight: none;
+            font-size: 1.7vw;
+          }
+        }
+        .gradientTwo {
+          background-image: linear-gradient(#ffffa3, #c1e8ff);
+          a {
+            font-weight: none;
+            font-size: 1.7vw;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;
+        div {
+          border: 2px solid #333;
+          padding: 10px 20px;
+          display: inline;
+        }
+        div:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.seven-bistro {
+  background-image: linear-gradient(#ffe1ff, #ffc699);
+  padding: 50px 30px 8px 50px;
+
+  .flex-grid-thirds {
+    display: flex;
+    .col-1 {
+      width: 8%;
+      img {
+        width: 70%;
+      }
+    }
+    .col-2 {
+      width: 30%;
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        line-height: 1.4;
+        font-size: 20px;
+        color: rgb(117, 115, 115);
+      }
+      p:nth-child(2) {
+        color: #333;
+        font-size: 18px;
+        font-family: "Mukta Vaani", sans-serif;
+        font-weight: 500;
+        margin-top: 24px;
+      }
+    }
+    .col-3 {
+      width: 25%;
+      margin: 0 auto;
+      padding-left: 80px;
+      p {
+        a {
+          text-decoration: none;
+          margin: 0 auto;
+          display: block;
+          color: #333;
+          font-family: arial;
+          font-weight: bold;
+          font-size: 22px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    .col-4 {
+      width: 25%;
+      padding-left: 20px;
+      margin: 0 auto;
+      font-family: arial;
+      font-weight: 400;
+
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        font-size: 20px;
+        color: #757373;
+        line-height: 1.4;
+      }
+
+      ul {
+        list-style-type: none;
+        margin-top: 20px;
+
+        li {
+          display: inline-block;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  .row {
+    margin-top: 40px;
+    margin-bottom: 85px;
+    font-family: arial;
+    font-size: 11px;
+    color: #b9b9b9;
+    letter-spacing: 0.03em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7em;
+
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    span {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}
+
+// --------------------------------------------------------------for 1200 viewing
+
+@media only screen and (max-width: 1200px) {
+  .one-eatery {
+    // background-color: orange;
+    .padding {
+      // background-color: purple;
+      overflow: hidden;
+      clear: both;
+      padding-top: 55px;
+      margin-left: 20px;
+    }
+    h1:nth-child(1) {
+      margin-top: 110px;
+      font-size: 8.5vw;
+      // padding-right: 100px;
+      // margin-right: 10px;
+      width: 424px;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(2) {
+      width: 428px;
+      font-size: 8.5vw;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(3) {
+      width: 495px;
+      span {
+        background-color: black;
+      }
+    }
+    h1 {
+      clear: both;
+
+      font-size: 75px;
+      width: 300px;
+      font-weight: 700;
+      font-family: arial;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      width: 300px;
+      height: 45px;
+
+      background-color: black;
+      margin-top: 50px;
+      margin-left: 15px;
+      padding: 7px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: arial;
+      }
+    }
+  }
+
+  // section for address and photo
+
+  .five-bistro {
+    height: 800px;
+    padding: 100px 0;
+    img {
+      width: 460px;
+      height: 565px;
+    }
+
+    .info {
+      width: 95%;
+
+      .left-content {
+        h2 {
+          font-size: 3.6vw;
+        }
+      }
+    }
+  }
+
+  // section for menu ----------------------
+  .six-eatery {
+    padding: 50px;
+
+    .menu-container {
+      width: 100%;
+
+      p {
+        font-size: 1.5vw;
+      }
+
+      .leftContent {
+        width: 45%;
+      }
+
+      .rightContent {
+        width: 45%;
+      }
+    }
+  }
+
+  //restaurant locations section
+  .flex-grid-restaurant {
+    .col {
+      width: 26%;
+      margin: 0 10px;
+      img {
+        width: 300px;
+        height: 300px;
+      }
+
+      p {
+        width: 310px;
+      }
+    }
+  }
+}
+// --------------------------------------------------------------for 980 viewing
+
+@media only screen and (max-width: 980px) {
+  .one-eatery {
+    // background-color: orange;
+    .padding {
+      // background-color: purple;
+      overflow: hidden;
+      clear: both;
+      padding-top: 55px;
+      margin-left: 20px;
+    }
+    h1:nth-child(1) {
+      margin-top: 110px;
+      font-size: 8vw;
+      // padding-right: 100px;
+      // margin-right: 10px;
+      width: 424px;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(2) {
+      width: 428px;
+      font-size: 8vw;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(3) {
+      width: 495px;
+      span {
+        background-color: black;
+      }
+    }
+    h1 {
+      clear: both;
+
+      font-size: 75px;
+      width: 300px;
+      font-weight: 700;
+      font-family: arial;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      width: 300px;
+      height: 45px;
+
+      background-color: black;
+      margin-top: 50px;
+      margin-left: 15px;
+      padding: 7px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: arial;
+      }
+    }
+  }
+
+  // section for address and photo
+
+  .five-bistro {
+    height: 650px;
+    img {
+      width: 352px;
+      height: 432px;
+    }
+
+    .info {
+      width: 90%;
+
+      .left-content {
+        width: 46%;
+
+        h2 {
+          font-size: 3.6vw;
+        }
+        p {
+          font-size: 2.5vw;
+        }
+      }
+    }
+  }
+
+  // section for menu ----------------------
+  .six-eatery {
+    padding: 0px;
+
+    .menu-container {
+      width: 100%;
+      h3 {
+        font-size: 1.4em;
+      }
+
+      h5 {
+        font-size: 1.1em;
+      }
+
+      p {
+        font-size: 2.1vw;
+      }
+
+      .leftContent {
+        width: 35%;
+      }
+
+      .rightContent {
+        width: 35%;
+      }
+    }
+  }
+
+  // ---- resturant locations section p tag
+
+  .otherRestaurants {
+    width: 70%;
+    padding-left: 222px;
+    p {
+      font-family: "Basic", sans-serif;
+      font-size: 6vw;
+    }
+  }
+
+  //restaurant locations section ------------------------------------------------------
+
+  .restaurantLocations {
+    .flex-grid-restaurant {
+      img {
+        // width: 228px;
+        // height: 228px;
+        width: 100%;
+        height: auto;
+      }
+      .col {
+        width: 30%;
+        margin: 0 10px;
+
+        p {
+          width: 236px;
+          font-size: 2vw;
+          padding-right: 28px;
+
+          .gradientOne {
+            a {
+              font-size: 2.8vw;
+            }
+          }
+          .gradientTwo {
+            a {
+              font-size: 2.8vw;
+            }
+          }
+        }
+
+        a {
+          div {
+            width: 46%;
+            height: 41px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// --------------------------------------------------------------for 765 viewing
+
+@media only screen and (max-width: 765px) {
+  .one-eatery {
+    // background-color: orange;
+    .padding {
+      // background-color: purple;
+      overflow: hidden;
+      clear: both;
+      padding-top: 55px;
+      margin-left: 20px;
+    }
+    h1:nth-child(1) {
+      margin-top: 110px;
+      font-size: 9vw;
+      // padding-right: 100px;
+      // margin-right: 10px;
+      width: 424px;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(2) {
+      width: 428px;
+      font-size: 9vw;
+      span {
+        background-color: black;
+      }
+    }
+    h1:nth-child(3) {
+      width: 495px;
+      span {
+        background-color: black;
+      }
+    }
+    h1 {
+      clear: both;
+
+      font-size: 75px;
+      width: 300px;
+      font-weight: 700;
+      font-family: arial;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      width: 300px;
+      height: 45px;
+
+      background-color: black;
+      margin-top: 50px;
+      margin-left: 15px;
+      padding: 7px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 1.4;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: arial;
+      }
+    }
+  }
+  .five-bistro {
+    height: 1260px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .info {
+      width: 90%;
+
+      .left-content {
+        width: 100%;
+        float: none;
+        margin-bottom: 100px;
+
+        h2 {
+          font-size: 6.8vw;
+        }
+        p {
+          font-size: 4.4vw;
+          width: 550px;
+        }
+      }
+      .right-content {
+        float: none;
+      }
+    }
+  }
+
+  .six-eatery {
+    clear: both;
+    padding: 60px;
+
+    .menu-container {
+      width: 100%;
+      flex-direction: column;
+      h3 {
+        font-size: 1.4em;
+      }
+
+      h5 {
+        font-size: 1.1em;
+      }
+
+      p {
+        font-size: 2.3vw;
+      }
+
+      .leftContent {
+        width: 100%;
+      }
+
+      .rightContent {
+        width: 100%;
+      }
+    }
+  }
+
+  //restaurant locations section
+  .restaurantLocations {
+    height: 1800px;
+    padding: 5px 5px;
+    .flex-grid-restaurant {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .col {
+        width: 100%;
+        margin-bottom: 50px;
+        margin: 0;
+        text-align: center;
+        img {
+          width: 596px;
+          height: 596px;
+        }
+
+        p {
+          width: 647px;
+          margin: 0 auto;
+          text-align: left;
+          font-size: 2.8vw;
+          padding-left: 12px;
+        }
+        a {
+          div {
+            width: 20%;
+            height: 41px;
+          }
+        }
+      }
+    }
+  }
+
+  .otherRestaurants {
+    width: 100%;
+    padding-left: 132px;
+    p {
+      font-family: "Basic", sans-serif;
+      font-size: 6.5vw;
+    }
+  }
+}
+
+//----------------------------------------------------------------for 715 footer only
+
+@media only screen and (max-width: 715px) {
+  .seven-bistro {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 8%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 2.4vw;
+          line-height: 1.4em;
+        }
+        p:nth-child(2) {
+          font-size: 2.2vw;
+          line-height: 1.7em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}
+// --------------------------------------------------------------for 567 viewing
+
+@media only screen and (max-width: 567px) {
+  .five-bistro {
+    height: 500px;
+
+    img {
+      display: none;
+    }
+
+    .info {
+      width: 90%;
+
+      .left-content {
+        width: 100%;
+        float: none;
+        margin-bottom: 100px;
+
+        h2 {
+          font-size: 6.8vw;
+        }
+      }
+      .right-content {
+        float: none;
+      }
+    }
+  }
+
+  .six-eatery {
+    padding: 60px;
+
+    .menu-container {
+      width: 100%;
+      // background-color: gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      font-family: "Basic", sans-serif;
+      font-size: 20px;
+      line-height: 1.2em;
+
+      h5 {
+        padding: 3px 0 3px 15px;
+      }
+
+      p {
+        padding: 0px 0 0px 15px;
+      }
+
+      .accordion {
+        // background-color: green;
+
+        // color: #444;
+        cursor: pointer;
+        // padding: 18px;
+        width: 100%;
+        // border-bottom: 2px solid #494545;
+        border-top: 2px solid #494545;
+        padding: 5px 0 5px 15px;
+        // text-align: left;
+        margin: 5px 0 5px;
+        outline: none;
+        font-size: 28px;
+        transition: 0.4s;
+
+        .panel {
+          // padding: 0 18px;
+          padding: 10px 0 10px 15px;
+          display: none;
+          background-color: white;
+          overflow: hidden;
+
+          h5 {
+            padding: 10px 0 10px 15px;
+          }
+
+          p {
+            font-size: 24px;
+          }
+        }
+      }
+
+      .accordion:after {
+        content: "\002B";
+        color: #494545;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+        font-size: 25px;
+      }
+
+      .active:after {
+        content: "\2212";
+      }
+
+      h3 {
+        color: rgb(73, 69, 69);
+        font-size: 1.4em;
+
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        margin-bottom: 40px;
+        margin-top: 20px;
+      }
+
+      h5 {
+        color: rgb(49, 48, 48);
+        font-size: 1.1em;
+      }
+
+      p {
+        color: rgb(119, 111, 111);
+        font-size: 0.8em;
+        font-size: 3.8vw;
+        font-family: "Source Sans Pro", sans-serif;
+        font-weight: 400;
+      }
+
+      .leftContent {
+        // background-color: orange;
+        width: 100%;
+      }
+
+      .rightContent {
+        // background-color: blue;
+        width: 100%;
+      }
+    }
+  }
+
+  .restaurantLocations {
+    height: 1550px;
+    padding: 5px;
+
+    .flex-grid-restaurant {
+      display: flex;
+      flex-direction: column;
+
+      .col {
+        width: 100%;
+        margin: 0 0 50px 0;
+        img {
+          // width: 596px;
+          // height: 596px;
+          width: 100%;
+          height: auto;
+        }
+
+        p {
+          width: 100%;
+          font-size: 3.8vw;
+        }
+        a {
+          .moreInfo {
+            background-color: orange;
+            font-size: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .otherRestaurants {
+    width: 100%;
+    padding-left: 100px;
+    p {
+      font-family: "Basic", sans-serif;
+      font-size: 6.5vw;
+    }
+  }
+
+  .seven-bistro {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 11%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 3.4vw;
+          line-height: 1.4em;
+        }
+        p:nth-child(2) {
+          font-size: 3.2vw;
+          line-height: 1.4em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}

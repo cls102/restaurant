@@ -1,6 +1,8 @@
-$primary-color: #444;
-
-body {
-  background: $primary-color;
-  color: #fff;
-}
+@import "home";
+@import "contact";
+@import "restaurant";
+@import "reset";
+@import "eatery";
+@import "cafe";
+@import "bistro";
+@import "food";

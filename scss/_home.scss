@@ -1,0 +1,1150 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+
+  right: 0;
+  // overflow: auto;
+  // padding: 10px 105px;
+  .logo {
+    width: 75px;
+    height: 65px;
+    // background-color: purple;
+    float: left;
+    margin-top: 20px;
+
+    img {
+      width: 80%;
+      padding: 5px 2px;
+      margin-left: 40px;
+    }
+  }
+
+  .navigation {
+    float: right;
+    ul {
+      list-style-type: none;
+      margin-right: 50px;
+      margin-top: 20px;
+
+      li {
+        display: inline;
+        line-height: 65px;
+
+        margin-left: 15px;
+
+        a {
+          text-decoration: none;
+          font-size: 25px;
+          font-weight: bold;
+          font-family: arial;
+          color: black;
+        }
+        a:hover {
+          border-bottom: 4px solid black;
+          transition: ease 0.3s;
+        }
+      }
+      .current {
+        padding: 2px 0;
+        border-bottom: 4px solid black;
+      }
+    }
+  }
+}
+
+.one-home {
+  // background-color: orange;
+  .padding {
+    // background-color: purple;
+    overflow: hidden;
+    clear: both;
+    padding-top: 55px;
+    margin-left: 127px;
+  }
+  h1:nth-child(1) {
+    margin-top: 110px;
+    width: 389px;
+  }
+  h1:nth-child(2) {
+    width: 513px;
+  }
+  h1:nth-child(3) {
+    width: 592px;
+  }
+  h1 {
+    clear: both;
+
+    font-size: 85px;
+    width: 300px;
+    font-weight: 700;
+    font-family: arial;
+    color: white;
+    span {
+      background-color: black;
+    }
+  }
+
+  .button {
+    width: 300px;
+    height: 45px;
+
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 127px;
+    line-height: 2;
+    letter-spacing: 0.5px;
+
+    a {
+      color: white;
+      text-decoration: none;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+      font-family: arial;
+    }
+  }
+}
+
+//end of section 1  -------------------------------------------------------------
+
+//start of section 1  -----------------------------------------------------------
+.two-home {
+  width: 100%;
+  height: 600px;
+  padding: 0 50px;
+
+  p {
+    padding: 125px 0px 100px;
+    font-size: 4.5vw; //4ve when resizing//
+    font-weight: 800;
+    font-family: arial;
+    line-height: 1.4em;
+  }
+}
+
+// .orange {
+//   display: hidden;
+// }
+
+// .mobile-nav {
+//   display: hidden;
+// }
+
+//end of section 2  -------------------------------------------------------------
+
+//start of section 3  -----------------------------------------------------------
+
+//end of section 3  -------------------------------------------------------------
+
+//start of section 4  -----------------------------------------------------------
+
+.four-home {
+  width: 100%;
+  height: 200px;
+  margin-top: 80px;
+  padding: 0 50px;
+  // background-color: rgb(226, 202, 202);
+
+  .flex-grid {
+    display: flex;
+    // justify-content: space-between;
+    // background-color: orange;
+    margin-top: 200px;
+    position: absolute;
+    img {
+      width: 44%;
+      position: absolute;
+      top: -180px;
+      left: -59px;
+    }
+    .col {
+      width: 47%;
+      margin: 0 30px;
+      font-size: 22px;
+      font-weight: bold;
+      font-family: arial;
+      letter-spacing: 0.8px;
+    }
+  }
+}
+//end of section 4  -------------------------------------------------------------
+
+//start of section 5  -----------------------------------------------------------
+
+.five-home {
+  width: 100%;
+  height: 850px;
+  padding: 100px 50px;
+  font-family: "Basic", sans-serif;
+
+  .info {
+    width: 97%;
+    margin: 0 auto;
+
+    .left-content {
+      width: 39%;
+      line-height: 1.8em;
+      float: left;
+      h2 {
+        font-size: 4vw;
+        font-weight: 800;
+        line-height: 1.4em;
+      }
+      p {
+        margin-top: 50px;
+        font-size: 2.1vw;
+        font-family: "Mukta Vaani", sans-serif;
+        font-weight: 500;
+        line-height: 1.8em;
+      }
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;
+
+        div {
+          margin-top: 70px;
+          border: 2px solid #333;
+          width: 25%;
+          height: 29px;
+          text-align: center;
+          line-height: 1.8;
+        }
+        div:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+    .right-content {
+      float: right;
+    }
+  }
+
+  .info-two {
+    clear: both;
+    padding-top: 55px;
+    height: 200px;
+    p {
+      margin-bottom: 30px;
+      margin-top: 35px;
+      font-size: 30px;
+      font-weight: bold;
+      font-family: arial;
+      text-align: center;
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: arial;
+
+      div {
+        border: 2px solid #333;
+        width: 10%;
+        height: 20%;
+        padding: 4px 0 2px 25px;
+        margin: 0 43%;
+        display: inline-block;
+      }
+      div:hover {
+        background-color: #333;
+        color: #fff;
+      }
+    }
+  }
+}
+
+//end of section 5  -------------------------------------------------------------
+
+//start of section 6  -----------------------------------------------------------
+
+.restaurantLocations-1 {
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+
+  .flex-grid-restaurant-home {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      width: 100%;
+    }
+    .col {
+      width: 31%;
+      margin: 0 18px;
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Open Sans", sans-serif;
+      line-height: 1.8em;
+
+      p {
+        margin-top: 20px;
+        font-size: 1.7vw;
+
+        .gradientOne {
+          background-image: linear-gradient(#ebddff, #99f7e6);
+          a {
+            font-weight: none;
+            font-size: 1.7vw;
+          }
+        }
+        .gradientTwo {
+          background-image: linear-gradient(#ffe1ff, #ffc699);
+          a {
+            font-weight: none;
+            font-size: 1.7vw;
+          }
+        }
+        .gradientThree {
+          background-image: linear-gradient(#ffffa3, #c1e8ff);
+          a {
+            font-weight: none;
+            font-size: 1.7vw;
+          }
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: arial;
+        div {
+          border: 2px solid #333;
+          margin-top: 30px;
+          width: 31%;
+          height: 20%;
+          text-align: center;
+          padding: 0;
+        }
+        div:hover {
+          background-color: #333;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+//end of section 6  -------------------------------------------------------------
+
+//start of section 7  -----------------------------------------------------------
+.seven-home {
+  padding: 50px 30px 8px 50px;
+
+  .flex-grid-thirds {
+    display: flex;
+
+    .col-1 {
+      width: 8%;
+      img {
+        width: 70%;
+      }
+    }
+    .col-2 {
+      width: 30%;
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        line-height: 1.4;
+        font-size: 20px;
+        color: rgb(117, 115, 115);
+      }
+      p:nth-child(2) {
+        color: #333;
+        font-size: 18px;
+        font-family: "Mukta Vaani", sans-serif;
+        font-weight: 500;
+        margin-top: 24px;
+      }
+    }
+    .col-3 {
+      width: 25%;
+      margin: 0 auto;
+      padding-left: 80px;
+      p {
+        a {
+          text-decoration: none;
+          margin: 0 auto;
+          display: block;
+          color: #333;
+          font-family: arial;
+          font-weight: bold;
+          font-size: 22px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    .col-4 {
+      width: 25%;
+      padding-left: 20px;
+      margin: 0 auto;
+      font-family: arial;
+      font-weight: 400;
+
+      p {
+        font-family: "Mukta Vaani", sans-serif;
+        font-size: 20px;
+        color: #757373;
+        line-height: 1.4;
+      }
+      ul {
+        list-style-type: none;
+        margin-top: 20px;
+
+        li {
+          display: inline-block;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  .row {
+    margin-top: 40px;
+    margin-bottom: 85px;
+    font-family: arial;
+    font-size: 11px;
+    color: #b9b9b9;
+    letter-spacing: 0.03em;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7em;
+
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    span {
+      color: #333;
+      font-weight: bold;
+    }
+  }
+}
+
+// --------------------------------------------------------------for 1200 viewing
+
+@media only screen and (max-width: 1200px) {
+  .two-home {
+    p {
+      padding: 125px 25px 100px;
+    }
+  }
+
+  .five-home {
+    height: 800px;
+    padding: 100px 0;
+    img {
+      width: 460px;
+      height: 565px;
+    }
+
+    .info {
+      width: 95%;
+
+      .left-content {
+        h2 {
+          font-size: 3.6vw;
+        }
+      }
+    }
+  }
+
+  .restaurantLocations-1 {
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+
+    .flex-grid-restaurant-home {
+      display: flex;
+      flex-direction: row;
+      // justify-content: space-between;
+      // background-color: orange;
+      // margin-top: 200px;
+
+      img {
+        width: 100%;
+      }
+      .col {
+        width: 31%;
+        margin: 0 18px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        p {
+          margin-top: 20px;
+          font-size: 1.7vw;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            margin-top: 30px;
+            border: 2px solid #333;
+            width: 31%;
+            height: 20%;
+            text-align: center;
+            padding: 0;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 980 -------------------------------------
+
+@media only screen and (max-width: 980px) {
+  .two-home {
+    p {
+      padding: 125px 0px 100px;
+      font-size: 45px;
+    }
+  }
+
+  .four-home {
+    width: 100%;
+    height: 200px;
+    margin: 100px 0;
+    padding: 0 50px;
+
+    .flex-grid {
+      display: flex;
+      margin-top: 200px;
+      position: absolute;
+      img {
+        width: 44%;
+        position: absolute;
+        top: -180px;
+        left: -59px;
+      }
+      .col {
+        width: 28%;
+        margin: 0 30px;
+        font-size: 26px;
+        font-weight: bold;
+        font-family: arial;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .five-home {
+    height: 650px;
+    margin-top: 100px;
+
+    img {
+      width: 352px;
+      height: 432px;
+    }
+
+    .info {
+      width: 90%;
+
+      .left-content {
+        width: 46%;
+
+        h2 {
+          font-size: 3.6vw;
+        }
+        p {
+          font-size: 2.5vw;
+        }
+      }
+    }
+  }
+
+  .restaurantLocations-1 {
+    width: 100%;
+    height: 420px;
+    margin-top: 30px;
+
+    .flex-grid-restaurant-home {
+      display: flex;
+      flex-direction: row;
+
+      img {
+        width: 100%;
+      }
+      .col {
+        width: 31%;
+        margin: 0 18px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        p {
+          margin-top: 20px;
+          font-size: 2.4vw;
+          width: 207px;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 1.7vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            border: 2px solid #333;
+            margin-top: 30px;
+            width: 43%;
+            height: 15%;
+            text-align: center;
+            padding: 0;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  // ----------------------start of mobile drop down menu
+  .navigation {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .orange {
+    width: 100%;
+    height: 50px;
+    padding: 5px 15px;
+    margin-top: 10px;
+
+    a {
+      text-decoration: none;
+      color: rgb(38, 39, 39);
+    }
+
+    .img-1 {
+      width: 28px;
+      margin-top: 10px;
+      float: right;
+    }
+    .img-1:hover {
+      opacity: 0.5;
+    }
+
+    .img-2 {
+      width: 40px;
+      float: left;
+    }
+  }
+
+  .mobile-nav {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 100%;
+    background-color: black;
+
+    z-index: 1000;
+    transition: all 0.1s ease-in-out;
+    visibility: hidden;
+
+    ul {
+      visibility: hidden;
+      transition: all 0.1s ease-in-out;
+    }
+
+    li {
+      padding: 10px 0;
+      text-align: center;
+      list-style-type: none;
+    }
+
+    li:hover {
+      color: gray;
+    }
+
+    .current {
+      color: rgb(184, 180, 180);
+    }
+
+    a {
+      text-decoration: none;
+      font-family: arial;
+      font-size: 28px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+
+  // ----------------------end of mobile drop down menu
+
+  // @media (min-width: 981px) and (max-width: 1200px) {
+  //   .orange {
+  //     display: none;
+  //   }
+  //   .mobile-nav {
+  //     display: none;
+  //   }
+  // }
+}
+
+@media only screen and (max-width: 765px) {
+  .two-home {
+    height: 690px;
+
+    p {
+      padding: 125px 0px 100px;
+      font-size: 45px;
+      width: 550px;
+      margin: 0 auto;
+    }
+  }
+
+  .four-home {
+    width: 100%;
+    height: 200px;
+    padding: 0 50px;
+
+    .flex-grid {
+      display: flex;
+      flex-direction: column;
+      margin-top: 200px;
+      position: absolute;
+      // background-color: purple;
+      img {
+        width: 97%;
+      }
+      .col {
+        width: 65%;
+        margin: 0 30px 50px;
+        font-size: 26px;
+        font-weight: bold;
+        font-family: arial;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  .five-home {
+    height: 1260px;
+    margin-top: 245px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .info {
+      width: 90%;
+
+      .left-content {
+        width: 100%;
+        float: none;
+        margin-bottom: 50px;
+
+        h2 {
+          font-size: 6.8vw;
+        }
+        p {
+          font-size: 3.5vw;
+          width: 420px;
+        }
+        a {
+          div {
+            margin-top: 30px;
+            width: 20%;
+          }
+        }
+      }
+      .right-content {
+        float: none;
+      }
+    }
+  }
+
+  .restaurantLocations-1 {
+    width: 100%;
+    height: 720px;
+    margin-top: 30px;
+    // padding: 0 50px;
+
+    .flex-grid-restaurant-home {
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 100%;
+      }
+      .col {
+        width: 100%;
+        margin: 0 18px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        p {
+          margin-top: 20px;
+          font-size: 4vw;
+          width: 428px;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            border: 2px solid #333;
+            margin-top: 30px;
+            width: 31%;
+            height: 20%;
+            text-align: center;
+            padding: 0;
+            // line-height: 2.7em;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+//----------------------------------------------------------------for 715 footer only
+
+@media only screen and (max-width: 715px) {
+  .seven-home {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 8%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 2.4vw;
+          line-height: 1.4em;
+        }
+        p:nth-child(2) {
+          font-size: 2.2vw;
+          line-height: 1.7em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}
+
+// --------------------------------------------------------------for 567 viewing
+
+@media only screen and (max-width: 567px) {
+  .one-home {
+    // background-color: orange;
+    .padding {
+      // background-color: purple;
+      overflow: hidden;
+      clear: both;
+      padding-top: 5px;
+      margin-left: 25px;
+    }
+    h1:nth-child(1) {
+    }
+    h1:nth-child(2) {
+    }
+    h1:nth-child(3) {
+    }
+    h1 {
+      background-color: transparent;
+      font-size: 54px;
+      font-family: arial;
+      font-weight: bold;
+      color: white;
+      span {
+        background-color: black;
+      }
+    }
+    .button {
+      width: 448px;
+      height: 38px;
+
+      background-color: black;
+      margin-top: 34px;
+      margin-left: 24px;
+      line-height: 1.5;
+      letter-spacing: 0.5px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 800;
+        font-family: arial;
+      }
+    }
+  }
+
+  .two-home {
+    height: 450px;
+    p {
+      font-size: 24px;
+      width: 400px;
+      line-height: 1.8em;
+    }
+  }
+
+  .four-home {
+    .flex-grid {
+      margin-top: 100px;
+      img {
+        display: none;
+      }
+      .col {
+        width: 62%;
+        font-size: 22px;
+      }
+    }
+  }
+
+  .five-home {
+    height: 950px;
+  }
+
+  .restaurantLocations-1 {
+    width: 100%;
+    height: 620px;
+    margin-top: 30px;
+    // padding: 0 50px;
+
+    .flex-grid-restaurant-home {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+      .col {
+        width: 100%;
+        margin: 0 18px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Open Sans", sans-serif;
+        line-height: 1.8em;
+
+        p {
+          margin-top: 20px;
+          font-size: 4vw;
+          width: 428px;
+
+          .gradientOne {
+            background-image: linear-gradient(#ebddff, #99f7e6);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+          .gradientTwo {
+            background-image: linear-gradient(#ffe1ff, #ffc699);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+          .gradientThree {
+            background-image: linear-gradient(#ffffa3, #c1e8ff);
+            a {
+              font-weight: none;
+              font-size: 4vw;
+            }
+          }
+        }
+
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: arial;
+          div {
+            border: 2px solid #333;
+            margin-top: 30px;
+            width: 31%;
+            height: 20%;
+            text-align: center;
+            padding: 0;
+            // line-height: 2.7em;
+          }
+          div:hover {
+            background-color: #333;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .seven-home {
+    padding: 50px 20px 8px 30px;
+    .flex-grid-thirds {
+      flex-direction: column;
+
+      .col-1 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        img {
+          width: 11%;
+        }
+      }
+      .col-2 {
+        width: 100%;
+
+        p {
+          font-size: 3.4vw;
+          line-height: 1.4em;
+        }
+
+        p:nth-child(2) {
+          font-size: 3.2vw;
+          line-height: 1.4em;
+
+          span {
+            display: none;
+          }
+        }
+      }
+      .col-3 {
+        display: none;
+      }
+      .col-4 {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 981px) and (max-width: 1780px) {
+  .orange {
+    display: none;
+  }
+  .mobile-nav {
+    display: none;
+  }
+}
